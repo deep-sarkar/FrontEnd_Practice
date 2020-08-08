@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*  
+         In CSS, selectors are patterns used to select the element(s) you want to style.
+            */
+        /*
+        ELEMENT SELECTOR
+        notation : tag (without < >)
+        Element selector can be used to apply some css to all the element of same kind
+        present in document 
+                 */
+        p {
+            border: 1px solid rgb(49, 33, 7);
+            width: 45%;
+        }
+
+        /* 
+        ID SELECTOR
+        notation : #id
+        id selector is used to apply css at perticular id element.
+        */
+        #firstPara {
+            background-color: rgb(35, 246, 176);
+        }
+
+        /*
+        CLASS SELECTOR
+        notation : .class
+        class selector will apply perticular style to all elements where this class is reffered
+        */
+        .primaryColour {
+            color: rgb(50, 71, 190);
+        }
+ 
+        .primaryBGColour {
+            background-color: antiquewhite;
+        }
+
+        /* 
+        GROUP SELECTOR
+        notation : element1, element2 ....
+        to apply same css in multiple element we use group selector
+        */
+        .primaryColour, .primaryBGColour {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        /*
+        NTH-CHILD SELECTOR
+        notation : tag:nth-child(n)
+        use to apply for tag at perticular order
+        */
+        p:nth-child(2) {
+            color: rgb(78, 22, 41);
+        }
+    </style>
+</head>
+<body>
+    <p id="firstPara" class="primaryColour">This is first paragraph</p>
+    <p id="secondPara">This is second paragraph</p>
+    <p class="primaryColour primaryBGColour">This is third paragraph</p>
+    <p class="primaryColour primaryBGColour" id="fourthPara">This is fourth paragraph</p>
+</body>
+</html>
