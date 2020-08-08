@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        table {
+            border-spacing: 5px 10px;
+            border-collapse: collapse;
+        }
+        table, td {
+            border: 1px solid #000;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+            background-color: aliceblue;
+        }
+    </style>
 </head>
 <body>
+    <h3>Table exercise</h3>
     <!-- Table is block level element -->
     <table>
         <!-- thead defines first row of talble ie. fields -->
@@ -32,6 +47,12 @@
                 <td>Raj</td>
                 <td>java</td>
                 <td>2 months</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Prateek</td>
+                <td>PHP</td>
+                <td>7 months</td>
             </tr>
         </tbody>
     </table>
