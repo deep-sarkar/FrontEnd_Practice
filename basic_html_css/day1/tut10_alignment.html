@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 60%;
+            border: 3px solid brown;
+            margin: auto;
+        }
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(243, 225, 225);
+        }
+        /*
+        float is used to align a box at right or left side of a block
+        */
+        #fruit { 
+            float: left;
+            width: 48%;
+
+        }
+        #book {
+            float: right;
+            width: 48%;
+        }
+        /*
+        clear is used to overcome colapse of 2 floating block
+        */
+        #mobile {
+            clear: both;
+            width: 96%;
+        }
+    
+        p, h3 {
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis similique veniam et optio debitis. Minima nemo adipisci totam facilis! Voluptatibus expedita, praesentium deserunt obcaecati mollitia eius ut qui et exercitationem.</p>
+        </div>
+        <div id="book" class="item">
+            <h3>Book</h3>
+            <p id="bookpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis similique veniam et optio debitis. Minima nemo adipisci totam facilis! Voluptatibus expedita, praesentium deserunt obcaecati mollitia eius ut qui et exercitationem.</p>
+        </div>
+        <div id="mobile" class="item">
+            <h3>Mobile</h3>
+            <p id="mobilepara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis similique veniam et optio debitis. Minima nemo adipisci totam facilis! Voluptatibus expedita, praesentium deserunt obcaecati mollitia eius ut qui et exercitationem.</p>
+        </div>
+    </div>
+</body>
+</html>
