@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* container property */
+            /*flex-direction: column; (by default row)
+            flex-direction: row-reverse; */
+            /*flex-wrap: wrap;*/
+            /* flex-flow : shorthand for direction and wrap */
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid red;
+            margin: 10px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item-1">1</div>
+        <div class="item" id="item-2">2</div>
+        <div class="item" id="item-3">3</div>
+        <div class="item" id="item-4">4</div>
+        <div class="item" id="item-5">5</div>
+        <div class="item" id="item-6">6</div>
+    </div>
+</body>
+</html>
