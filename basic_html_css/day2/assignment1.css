@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#firstdiv {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+#primaryContainer-1 {
+    width: 96%;
+    height: 750px;
+    margin-left: 2%;
+}
+
+
+.outerDiv1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.firstItems,.secondItems {
+    background-color: rgb(236, 205, 201);
+}
+#firstItems-1 {
+    width: 32%;
+    height: 28%;
+}
+#firstItems-2 {
+    width: 22%;
+    height: 25%;
+    align-self: flex-end;
+    position: relative;
+    top: -30%;
+}
+#firstItems-3 {
+    width: 32%;
+    height: 33%;
+    align-self: center;
+    position: relative;
+    top: -12%;
+}
+#firstItems-4 {
+    width: 8%;
+    height: 10%;
+    align-self: center;
+    position: relative;
+    bottom: 7%;
+}
+.outerDiv2 {
+    height: 59.7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.secondItems {
+    width: 20%;
+    height: 20%;
+}
+#secondItems-1 {
+    width: 100%;
+    height: 77%;
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#secondItems-2, #secondItems-3, #secondItems-4{
+    width: 18%;
+    height: 9%;
+    align-self: flex-end;
+    border: 1px solid;
+}
+#secondItems-3 {
+    position: relative;
+    left: -5%;
+}
+#secondItems-4 {
+    position: relative;
+    left: -10%;
+}
+#secondItems-5 {
+    height: 5%;
+    width: 17%;
+    align-self: flex-end;
+    position: relative;
+    bottom: 3%;
+    background-color:rgb(133, 133, 138) ;
+}
+.innerDiv2, .innerDiv3 ,.footer{
+    background-color: rgb(133, 133, 138);
+}
+#box-1 {
+    width: 27%;
+    height: 7%;
+    position: relative;
+    top: 2%;
+}
+#box-2 {
+    width: 35%;
+    height: 12%;
+    margin-left: 1%;
+}
+#box-3 {
+    width: 35%;
+    height: 7%;
+    margin-left: 2%;
+    position: relative;
+    top: 2%;
+}
+#box-4 {
+    width: 27%;
+    height: 7%;
+    position: relative;
+}
+
+#box-5 {
+    width: 72%;
+    height: 46%;
+    margin-left: auto;
+    position: relative;
+    top: -4%;
+}
+#box-6 {
+    width: 35%;
+    height: 7%;
+    position: relative;
+    align-self: flex-start;
+    bottom: 12%;
+    left: 28%;
+}
+#box-7 {
+    width: 35%;
+    height: 10%;
+    align-self: flex-end;
+    position: relative;
+    bottom: 10%;
+    left: -11%;
+}
+#box-8 {
+    width: 22%;
+    height: 8%;
+    align-self: flex-end;
+    position: relative;
+    bottom: 11%;
+    right: 14%;
+}
+#primaryContainer-2 {
+    width: 96%;
+    height: 750px;
+    padding: 2% 2% 0% 2%;
+    background-color: rgb(236, 205, 201);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#lastDiv-1 {
+    height: 9%;
+    width: 33%;
+}
+#lastDiv-2 {
+    height: 9%;
+    width: 33%;
+    align-self: flex-end;
+    position: relative;
+    top: -10%;
+}
+#lastDiv-3,#lastDiv-8,#lastDiv-12 {
+    height: 4%;
+    width: 10%;
+    position: relative;
+    top: -7%;
+}
+#lastDiv-4,#lastDiv-9,#lastDiv-13 {
+    height: 9%;
+    width: 79%;
+    position: relative;
+    top: -6%;
+}
+
+#lastDiv-5 {
+    height: 9%;
+    width: 15%;
+    align-self: flex-end;
+    position: relative;
+    top: -15%;
+}
+#lastDiv-6 {
+    height: 4%;
+    width: 40%;
+    position: relative;
+    top: -14%;
+}
+#lastDiv-7 {
+    height: 9%;
+    width: 100%;
+    position: relative;
+    top: -10%;
+}
+#lastDiv-10 {
+    height: 4%;
+    width: 10%;
+    position: relative;
+    top: -4%;
+    left: 90%;
+}
+#lastDiv-11 {
+    height: 9%;
+    width: 79%;
+    position: relative;
+    left: 21%;
+    top: -3%;
+}
+#lastDiv-12 {
+    top: 0%;
+}
+#lastDiv-13 {
+    top: 0.6%;
+}
+#footer {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    justify-content: space-between;
+}
+#footer-1 {
+    height: 12px;
+    width: 15%;
+    align-self: flex-start;
+}
+#footer-2 {
+    height: 12px;
+    width: 30%;
+}
