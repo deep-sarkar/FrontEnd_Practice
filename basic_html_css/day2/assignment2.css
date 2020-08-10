@@ -1,0 +1,132 @@
+#main {
+    width: 80%;
+    border: 2px solid lightgray;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#nav_bar {
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+}
+#nav_bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    padding-inline-start:0;
+    
+}
+#nav_bar ul li {
+    list-style: None;
+    padding-right: 8px;
+}
+#nav_bar ul li a{
+    text-decoration: none;
+    color: rgb(97, 92, 92);
+    font-size: 1.5em; 
+    
+}
+#nav_bar ul li:nth-child(6) a {
+    position: relative;
+    top: 19%;
+    left: 1207%;
+    text-decoration: underline;
+    font-size: 1em;
+    text-align: right;
+}
+#nav_bar ul li a:hover ,
+#number a:hover ,
+.link:hover,
+#btn:hover ,
+.inside a:hover
+ {
+    font-weight: bold;
+}
+#number {
+    align-self: center;
+    margin-block-start: .7em;
+    margin-block-end: 0.4em;
+}
+#number a{
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    color: rgb(97, 92, 92);
+}
+#wrapper {
+    width: 92%;
+    margin: 2%;
+    padding: 2%;
+    height: auto;
+    background-color: rgb(236, 232, 232);
+    list-style: none;
+}
+#wrapper li {
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-around;
+    color: rgb(97, 92, 92);
+
+}
+#wrapper li label{
+    flex: 1;
+    text-align: end;
+    color: rgb(24, 23, 23);
+}
+#wrapper li input {
+    margin-left: auto;
+}
+#to {
+    position: relative;
+}
+#toli {
+    position: relative;
+    right: 50.6%;
+}
+#attachment a {
+    margin-right: auto;
+    position: relative;
+    left: 12%;
+}
+.link {
+    color: rgb(87, 82, 82);
+    font-size: 0.8em;
+}
+#btn {
+    width: 200px;
+    height: 35px;
+    margin-right: auto;
+    position: relative;
+    left: 11.4%;
+    font-size: large;
+    background-color:#b9b8bb;
+    border: none;
+}
+#schedule {
+    align-self: center;
+    position: absolute;
+    left: 39%;
+}
+#frame {
+    width: 96%;
+    margin-left: 2%;
+    height: 25px;
+    display: flex;
+}
+.inside {
+    padding: .2% 1% 0% 1%;
+    margin-right: 1%;
+    text-align: center;
+    background-color:  #eee;
+}
+#inside-4 {
+    border: none;
+    margin-left: auto;
+    font-size: .9em;
+    background-color: white;
+}
+.inside a {
+    color: rgb(39, 38, 38);
+}
