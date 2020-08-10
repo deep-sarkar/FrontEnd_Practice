@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="/day2/assignment2.css">
+</head>
+<body>
+    <div id="main">
+        <nav id="nav_bar">
+            <ul>
+                <li><a href="#">Textify</a></li>
+                <li><a href="#">Because</a></li>
+                <li><a href="#">Text</a></li>
+                <li><a href="#">Messaging</a></li>
+                <li><a href="#">Rocks</a></li>
+                <li><a href="#">logout</a></li>
+            </ul>
+        </nav>
+        <div id="number">
+            <h1>(212)555-1234</h1>
+            <a href="#">What is this number?</a>
+        </div>
+            <div id="formDiv">
+                <form action="" id="form">
+                    <ul id="wrapper">
+                        <li id="toli">
+                            <label for="to" class="label">To:</label>
+                            <input type="text" class="input" id="to"> 
+                            &lt;&lt;Phone number or name
+                        </li>
+                        <li>
+                            <label for="message" class="label">Message:</label>
+                            <textarea id="message" class="input" cols="100%" rows="8"></textarea>
+                        </li>
+                        <li id="attachment">
+                            <a class='link' href="#">Attach a photo to this message</a>
+                        </li>
+                        <li>
+                            <button type="submit" id="btn">
+                                Send Text Message 
+                            </button>
+                             <a class='link' id="schedule" href="#">Or, schedule it for later</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div id="frame">
+                <div class="inside" id="inside-1"><a href="/day2/assignment2_frame.html" target="frame1">Recent Conversation</a></div>
+                <div class="inside" id="inside-2"><a href="/day2/assignment2_frame.html" target="frame1">All Conversation</a></div>
+                <div class="inside" id="inside-3"><a href="/day2/assignment2_frame.html" target="frame1">Photo</a></div>
+                <div class="inside" id="inside-4"><a href="" target="frame1">Change Password</a></div>
+            </div>
+            <iframe src="assignment2_frame.html" name="frame1" width="100%"></iframe>
+    </div>
+</body>
+</html>
