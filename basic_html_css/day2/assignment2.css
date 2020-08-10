@@ -130,3 +130,7 @@
 .inside a {
     color: rgb(39, 38, 38);
 }
+iframe {
+    width: auto;
+    height: 984px;
+}
