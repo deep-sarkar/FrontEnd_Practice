@@ -110,12 +110,12 @@ a:hover , button:hover {
  align-self: flex-end;
 }
 #msg-6 .box-1 {
-   width: 24%;
+   width: 30.8%;
 }
 #footer {
     background-color: rgb(109, 109, 109);
-    width: 31%;
-    padding: 12px;
+    width: 40%;
+    padding: 2% 0;
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -130,5 +130,5 @@ a:hover , button:hover {
 #footer p {
     color:rgb(43, 43, 43);
     align-self: center;
-    text-align: center;
+
 }
