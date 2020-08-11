@@ -48,8 +48,9 @@
     left: 45px;
 }
 #msg{
-    margin-right: 7%;
+    margin-right: auto;
     height: 43px;
+    width: 90%;
 }
 #link {
     width: 96%;
