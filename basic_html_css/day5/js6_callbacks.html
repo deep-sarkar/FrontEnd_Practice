@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callbacks</title>
+</head>
+<body>
+    <!-- Callbacks make sure that a function is not going to run before a task is completed but will run right after the task has completed. It helps us develop asynchronous JavaScript code and keeps us safe from problems and errors. -->
+
+    <!-- In JavaScript, the way to create a callback function is to pass it as a parameter to another function, and then to call it back right after something has happened or some task is completed -->
+    <script>
+        const message = function () {  
+            console.log("This message is shown after 3 seconds");
+        };
+        setTimeout(message, 3000);
+        //or bu ananymous fn
+        setTimeout(function(){
+            console.log("ananymous after 1 second."), 1000
+        }) 
+    </script>
+</body>
+</html>

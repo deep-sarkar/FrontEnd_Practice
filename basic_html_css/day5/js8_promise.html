@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promisw</title>
+</head>
+<body>
+    <script>
+        var p = new Promise((resolve, reject) => {
+            var a = 2
+            if (a==2){
+                resolve("Success")
+            }else{
+                reject("Rejected")
+            }
+        })
+        p.then((message) => {
+            console.log("This is in the then " + message)
+        }).catch((message) => {
+            console.log("This is in the catch " + message)
+        })
+    </script>
+</body>
+</html>

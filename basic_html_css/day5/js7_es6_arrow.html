@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrrow fn</title>
+</head>
+<body>
+    <div id="arrow"></div>
+    <!-- With arrow functions, you don't have to type the function keyword, the return keyword, and the curly brackets. -->
+    <script>
+        const x = (x, y) => x * y;
+        document.getElementById("arrow").innerHTML = x(5, 5);
+    </script>
+    
+    <!-- ES6 allows function parameters to have default values. -->
+    <div id="pre-defined-param"></div>
+    <script>
+        function myFunction(x, y = 10) {
+          // y is 10 if not passed or undefined
+          return x + y;
+        }
+        document.getElementById("pre-defined-param").innerHTML = myFunction(5);
+        </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Sync</title>
+</head>
+<body>
+    <script>
+        //js is synchronus programming ie its have only 1 stack and 1 heap memory at a time
+        /* program will executed line by line, if any async line is there it will skip it and put and hold and will go fir 
+            next line of code.
+        */
+        var log = console.log;
+        var a = 10;
+        var b = 2;
+        log( "a", a );
+        log( "b", b );
+        var a1 = (function(){ return a });
+        var b1 = (function(){ return b });
+        var c = (function(num){ return 3*num });
+        log( "a1", a );
+        log( "b1", b );
+        log("c", c(b1()));
+        //Async
+        let a3 = 7;
+        //
+        setTimeout(function(){ a3++}, 0);
+        /* incriment done 1st time within 0 ms but since js is non blocking, it will skip async code for background and will move to next line of code 
+        **Since async code is skiped and put it for execute after execution of sync code, therefore a3 will still be same as initial value ie 7
+        */
+        log("a3", a3)
+        setTimeout(function(){ a3++, log("a3 incriminted twice", a3)}, 0);
+        log("a3 2nd time", a3)
+    </script>
+</body>
+</html>

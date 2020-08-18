@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="myFunction()">Count!</button>
+
+    <p id="demo">0</p>
+</body>
+<script>
+    //Enclosure are self clalling function, declairing a function add
+    var add = (function () {
+        var counter = 0; //function variable count set to 0 
+        return function () {  //while returning its calling function and incriminting counter by 1 and returning counter
+            counter += 1;
+            return counter
+      }
+    })();
+    
+    function myFunction(){
+      document.getElementById("demo").innerHTML = add();
+    }
+    </script>
+</html>
